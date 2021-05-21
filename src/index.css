@@ -13,16 +13,22 @@ code {
 }
 
 .rectangle {
-  height: 50px;
+  height: 80px;
   width: 100%;
   background-color: #555;
   position: relative;
-  top: -25px;
 }
 
 .header{
   color: white;
+  position: absolute;
   text-align: center;
+  vertical-align: center;
+  top: 20px;
+  bottom: 20px;
+  left: 200px;
+  right: 200px;
+  margin: auto;
 }
 
 .lane {
@@ -51,6 +57,27 @@ code {
 }
 
 .hamburger{
-  padding: 10px;
-  background-color: white;
+  margin: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 60px;
+  border: none;
+  background-color: #555;
 }
+
+
+.menu { 
+  color: #DDD;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.menu:hover{
+  color: white;
+} 
+
