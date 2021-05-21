@@ -9,7 +9,7 @@ const Header = () => {
                     Hello, Person!
                 </h1>
 
-                <ProjectMenu />
+                <ProjectMenu/> 
             </div>
 
         </div>
